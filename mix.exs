@@ -80,7 +80,10 @@ defmodule Todo.MixProject do
       {:dart_sass, "~> 0.2", runtime: Mix.env() == :dev},
 
       # Credo
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+
+      # Image Processing
+      {:nx, "== 0.4.2"}
     ]
 
     if Mix.target() in [:android, :ios] do
