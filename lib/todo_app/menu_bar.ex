@@ -22,7 +22,6 @@ defmodule TodoApp.MenuBar do
         <item onclick="quit"><%= gettext "Quit" %></item>
     </menu>
     <menu label={gettext "Extra"}>
-        <item onclick="notification"><%= gettext "Show Notification" %></item>
         <item onclick="observer"><%= gettext "Show Observer" %></item>
         <item onclick="browser"><%= gettext "Open Browser" %></item>
     </menu>
@@ -48,14 +47,6 @@ defmodule TodoApp.MenuBar do
   def handle_event("browser", menu) do
     Window.prepare_url(TodoWeb.Endpoint.url())
     |> :wx_misc.launchDefaultBrowser()
-
-    {:noreply, menu}
-  end
-
-  def handle_event("notification", menu) do
-    Window.show_notification(TodoWindow, gettext("Sample Elixir Desktop App!"),
-      callback: &TodoWeb.TodoLive.notification_event/1
-    )
 
     {:noreply, menu}
   end

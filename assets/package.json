@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "nprogress": "^0.2.0"
+  "scripts": {
+    "deploy": "NODE_ENV=production tailwindcss --minify -i css/app.css -o ../priv/static/assets/app.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^2.2.8"
   }
 }

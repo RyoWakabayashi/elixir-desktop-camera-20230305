@@ -47,7 +47,7 @@ defmodule Todo.MixProject do
       "assets.deploy": [
         "phx.digest.clean --all",
         "esbuild default --minify",
-        "sass default --no-source-map --style=compressed",
+        "tailwind default --minify",
         "phx.digest"
       ],
       lint: [
@@ -77,7 +77,8 @@ defmodule Todo.MixProject do
 
       # Assets
       {:esbuild, "~> 0.2", runtime: Mix.env() == :dev},
-      {:dart_sass, "~> 0.2", runtime: Mix.env() == :dev},
+      {:tailwind, "~> 0.1.6", runtime: Mix.env() == :dev},
+      {:phx_gen_tailwind, "~> 0.1.3", only: :dev},
 
       # Credo
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false}

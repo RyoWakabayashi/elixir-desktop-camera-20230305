@@ -1,0 +1,11 @@
+<div class="flex flex-col justify-between h-screen text-2xl sm:text-4xl leading-relaxed">
+  <div class="bg-white m-4 mt-8 flex justify-center items-stretch">
+    <div class="py-2">
+      <TodoWeb.Contents.contents index={@page}/>
+    </div>
+  </div>
+  <div class="m-4 mb-8 flex justify-between">
+    <div phx-click="prev">Prev</div>
+    <div phx-click="next">Next</div>
+  </div>
+</div>
