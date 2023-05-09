@@ -10,10 +10,10 @@ defmodule TodoWeb.Contents do
             src="https://connpass-tokyo.s3.amazonaws.com/thumbs/bb/8b/bb8bba3ac44987c7d25040ef28addf86.png"
             class="w-2/3"
           />
-          <p class="text-7xl sm:text-9xl">#1</p>
+          <p class="text-7xl sm:text-9xl">#2</p>
         </div>
         <div>
-          Elixirでスマホネイティブアプリ作れるのご存知でした？
+          ElixirDesktopスマホアプリ作成ハンズオン
         </div>
       </div>
       """,
