@@ -10,10 +10,10 @@ defmodule TodoWeb.Contents do
             src="https://connpass-tokyo.s3.amazonaws.com/thumbs/bb/8b/bb8bba3ac44987c7d25040ef28addf86.png"
             class="w-2/3"
           />
-          <p class="text-7xl sm:text-9xl">#3</p>
+          <p class="text-7xl sm:text-9xl">#4</p>
         </div>
         <div>
-          DBも内蔵したElixirDesktopスマホアプリ開発ハンズオン
+          ElixirDesktopでスマホらしいUIを組む
         </div>
       </div>
       """,
@@ -73,8 +73,8 @@ defmodule TodoWeb.Contents do
       <div class="leading-relaxed">
         <p class="mb-2">本日の進行表</p>
         <div class="break-all text-blue-500">
-          <a href="https://docs.google.com/spreadsheets/d/1GVK_1bVgndpdvNRYZu4fY-0De3rxDMqI5c6MhSD6vbQ/edit#gid=62158372">
-            https://docs.google.com/spreadsheets/d/1GVK_1bVgndpdvNRYZu4fY-0De3rxDMqI5c6MhSD6vbQ/edit#gid=62158372
+          <a href="https://docs.google.com/spreadsheets/d/1GVK_1bVgndpdvNRYZu4fY-0De3rxDMqI5c6MhSD6vbQ/edit?usp=sharing">
+            https://docs.google.com/spreadsheets/d/1GVK_1bVgndpdvNRYZu4fY-0De3rxDMqI5c6MhSD6vbQ/edit?usp=sharing
           </a>
         </div>
       </div>
