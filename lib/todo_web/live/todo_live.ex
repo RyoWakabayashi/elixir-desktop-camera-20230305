@@ -5,7 +5,7 @@ defmodule TodoWeb.TodoLive do
   """
   use TodoWeb, :live_view
 
-  @max_page 5
+  @max_page 3
 
   @impl true
   def mount(_args, _session, socket) do
