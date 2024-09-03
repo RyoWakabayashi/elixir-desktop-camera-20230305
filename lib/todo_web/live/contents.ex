@@ -11,11 +11,11 @@ defmodule TodoWeb.Contents do
             class="w-2/3"
           />
           <div class="block">
-            <p class="text-6xl sm:text-8xl">#9</p>
+            <p class="text-6xl sm:text-8xl">#10</p>
           </div>
         </div>
         <div>
-          プロダクションのリアルな話を語らう会
+          モバイルで SaladUI ハンズオン
         </div>
       </div>
       """,
